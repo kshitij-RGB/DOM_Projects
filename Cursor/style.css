@@ -26,7 +26,7 @@ html, body{
     border-radius: 50%;
     mix-blend-mode: difference;
     position: absolute;
-    transition: all linear 0.1s;
+    transition:all linear 0.1s;
 }
 h1{
     font-size: 10vw;
