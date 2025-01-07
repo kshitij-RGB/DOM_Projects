@@ -26,6 +26,7 @@ body{
     border-radius: 10px;
     padding: 30px;
     text-align: center;
+    
 }
 
 #card img{
@@ -34,6 +35,12 @@ body{
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+
+#card img:hover{
+    scale: 1.1;
 }
 
 #card h1{
@@ -62,6 +69,7 @@ body{
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+    transition: all ease 0.5s;
     
 }
 
@@ -69,4 +77,8 @@ body{
     background-color: #dadada;
     color: #111;
 
+}
+
+#card button:hover{
+    box-shadow: 5px 5px #111;
 }
