@@ -31,4 +31,10 @@ html, body{
 h1{
     font-size: 10vw;
     font-weight: 600;
+    background-image: url(https://imgs.search.brave.com/LpEaLbXwEDDCAQ86VDK1eln_rXHdpuVwkdjJ4d7uPAY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MTAyOTk3NC92ZWN0/b3IvY29sb3JmdWwt/YWJzdHJhY3QtYmFj/a2dyb3VuZC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9LWVi/LUtGS05TWjFDN1lh/VFQtOE14WGVKOEow/S283LWVWOHdpdU11/bmZXbz0);
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
